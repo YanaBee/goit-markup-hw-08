@@ -164,6 +164,7 @@ textarea {
 }
 
 .header {
+  position: relative;
   border-bottom: 1px solid #ececec;
 }
 
@@ -278,6 +279,43 @@ textarea {
   height: 16px;
   margin-right: 10px;
   fill: currentColor;
+}
+
+.menu-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.menu-button .icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-burger {
+  display: none;
+}
+
+.menu-container {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: green;
+  padding: 48px 40px;
+  text-align: left;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .hero {
@@ -1225,7 +1263,7 @@ textarea {
       flex-basis: auto;
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .reviews {
     display: none;
   }
