@@ -6,6 +6,10 @@ body {
   margin: 0;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 h1,
 h2,
 h3,
@@ -1035,6 +1039,7 @@ textarea {
   background-color: rgba(0, 0, 0, 0.2);
   -webkit-transform: scale(1.15);
           transform: scale(1.15);
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {

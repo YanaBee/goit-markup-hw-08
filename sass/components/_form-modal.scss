@@ -126,6 +126,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transform: scale(1.15);
+  overflow-y: scroll;
 }
 
 .backdrop.is-hidden {
