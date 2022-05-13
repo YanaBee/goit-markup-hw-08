@@ -46,13 +46,13 @@
                                 </svg> +38 096 111 11 11</a>
                         </li>
                     </ul>
-                    <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container">
+                    <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
                         <svg width="40px" hight="40px" aria-label="Переключатель мобильного меню">
                             <use class="icon-burger" href="./image/icons.svg#icon-burger"></use>
                             <use class="icon-cross" href="./image/icons.svg#icon-close-button"></use>
                         </svg>
                     </button>
-                    <div class="menu-container" id="menu-container">
+                    <div class="menu-container is-open" id="menu-container" data-menu>
                          Контейнер
 
                     </div>
@@ -124,7 +124,7 @@
 
     <!--Чем мы занимаемся-->
     
-    <section class="section reviews">
+    <section class="section experience">
         <div class="container">
     <h2 class="section-title">Чем мы занимаемся</h2>
     <ul class="products">
@@ -501,5 +501,6 @@
             </div>
 </footer>
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
