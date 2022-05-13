@@ -1,10 +1,13 @@
 .menu-container {
   display: none;
+
   position: absolute;
   top: 100%;
   left: 0;
   width: 100%;
-  background-color: green;
+  height: 796px;
+  background-color: $background-color-white;
+  // color: $text-color;
   padding: 48px 40px;
   text-align: left;
   font-size: 40px;

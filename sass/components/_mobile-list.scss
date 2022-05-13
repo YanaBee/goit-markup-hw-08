@@ -1,0 +1,19 @@
+.mobile-list .mobile-list__nav {
+  color: $text-color;
+  margin-bottom: 32px;
+  font-family: $main-font;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 00.02em;
+  display: flex;
+}
+
+.mobile-list__nav:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.mobile-list__link:hover,
+.mobile-list__link:focus {
+  color: $logo-accent;
+}

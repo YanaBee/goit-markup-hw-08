@@ -7,3 +7,9 @@
   position: relative;
   border-bottom: 1px solid #ececec;
 }
+
+.header-mobile {
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+}

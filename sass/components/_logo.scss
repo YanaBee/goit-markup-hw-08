@@ -4,6 +4,10 @@
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
+
+  @media screen and (min-width: 1199px) {
+    display: none;
+  }
 }
 
 .logo__dark {
@@ -13,6 +17,10 @@
   font-weight: 700;
   line-height: 1.2;
   margin-bottom: 20px;
+
+  @media screen and (min-width: 1199px) {
+    display: none;
+  }
 }
 
 .logo__white {
